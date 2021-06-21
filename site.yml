@@ -1,5 +1,7 @@
-  - import_playbook: provision_app_tier.yml
-  - import_playbook: provision_database_tier.yml
-  - import_playbook: provision_load_balancer_tier.yml
-  - import_playbook: provision_smoketest_app.yml
-  - import_playbook: provision_smoketest_db.yml
+---
+# file: site.yml
+- import_playbook: provision_database_tier.yml
+- import_playbook: provision_app_tier.yml
+- import_playbook: provision_load_balancer_tier.yml
+- import_playbook: provision_smoketest_app.yml
+- import_playbook: provision_smoketest_db.yml
