@@ -72,5 +72,4 @@ https://opensource.com/article/17/6/ansible-postgresql-operations
 
 == no Credits
 * Jan Gerrit Kootstra
-** I am just a devops engineer using the code of the people 
-** above for an Ansible training.
+** I am just a devops engineer using the code of the people above for an Ansible training.
