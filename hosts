@@ -13,10 +13,5 @@ load_balancers
 app_servers
 database_servers
 
-[MultiTearApp:children]
-load_balancers
-app_servers
-database_servers
-
 [all:vars]
 GUID="{{ lookup('env', 'GUID') }}"
