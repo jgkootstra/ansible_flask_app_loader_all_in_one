@@ -70,3 +70,6 @@ https://opensource.com/article/17/6/ansible-postgresql-operations
 ** Shout out for their Ansible Automation Cookbook
 * Jeff Geerlinguy for his Ansible Galaxy Postgres Role
 
+== no Credits
+* Jan Gerrit Kootstra
+** I am just a devops engineer using the code of the people above for an Ansible training.
